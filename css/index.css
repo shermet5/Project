@@ -90,24 +90,6 @@ ul,li{
     margin: 0 auto;
 
 }
-.slider_title{
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    margin-bottom: 22px;
-    font-family: 'Roboto', sans-serif;
-}
-.slider_text{
-    line-height: 24px;
-    font-size: 18px;
-    color: #1b1b1b;
-    margin-bottom: 50px;
-
-}
-
 .default-btn{
     display: inline-block;
     color: #fff;
@@ -185,7 +167,7 @@ ul,li{
     position: relative;
 }
 .services_title-box::before,
-.form_title-box::before,{
+.form_title-box::before{
     content: "";
     position: absolute;
     width: 100px;
@@ -237,10 +219,6 @@ ul,li{
     font-family: 'Roboto', sans-serif;
     padding: 24px 0;
 }
-.services_item-text{
-    letter-spacing: 0.1px;
-    padding: 0px 30px 30px;
-}
 .services_item-btn{
     position: absolute;
     bottom: 40px;
@@ -248,6 +226,9 @@ ul,li{
     right: 0;
     border: 2px solid #ffc222;
     width: 70px;
+}
+.services_item-btn a{
+    color: #373636;
 }
 .services_item-btn .default-btn{
     color: #373636;
@@ -288,6 +269,13 @@ ul,li{
 }
 .about_btn.default-btn:after{
     color: #000;
+}
+.about_btn a{
+    color: #373636;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    padding: 5px 38px;
+    border: 3px solid #ffc222;
 }
 .form{
     padding-top: 30px;
@@ -469,24 +457,7 @@ ul,li{
     font-weight: s400;
     font-family: 'Roboto', sans-serif;
   }
-  #modal{
-    width: 300px;
-  }
-  #modal input{
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-    outline: none;
-    height: 40px;
-    border: 1px solid #e6e6e6;
-    padding: 0px 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-  }
-  #modal input[type="submit"]{
-    background-color: #ffc222;
-    border: none;
-  }
+
   .header__btn-menu{
     display: none;
     font-size: 28px;
