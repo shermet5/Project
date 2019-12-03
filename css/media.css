@@ -1,0 +1,122 @@
+@media (max-width: 1156px){
+    .form_inner{
+        background-image: none;
+    }
+    
+@media (max-width: 1050px){
+    .footer_inner{
+        display: block;
+    }
+    .footer_map{
+        max-width: 100%;
+    }
+    .footer_info{
+        max-width: 465px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 900px){
+    .slider .slick-btn{
+        display: none !important;
+    }
+    .form_title-box{
+        padding-left: 0;
+        text-align: center;
+        margin:0 auto 30px;
+    }
+    .form_title-box:before{
+        display: none;
+
+    }
+    .form_box-inner{
+        display: block;
+    }
+    .form_box-left{
+        max-width: 100%;
+    }
+    .form_box-right{
+        max-width: 100%;
+    }
+    .from_box-inner .jq-selectbox__select{
+        margin-bottom: 10px;
+    }
+    .form{
+        padding-bottom: 25px;
+    }
+    
+@media (max-width: 700px){
+    .header_btn{
+        float: none;
+    }
+    .header_contacts{
+        text-align: center;
+    }
+    .header_btn:before{
+        display: none;
+    }
+   .footer_info .header_btn:before{
+        display: block;
+    }
+    .header_btn-menu{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu a{
+        display: block;
+        background-color: #ffc222;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .menu li+li{
+        padding-left: 0;
+    }
+}
+@media (max-width: 600px){
+    .services_item{
+        max-width: 100%;
+        min-height: 375px;
+        margin: 30px auto;
+
+    }
+}
+@media (max-width: 540px){
+    .slick-btn{
+        bottom:-90px;
+    }
+}
+@media (max-width: 414px){
+    .slider_title{
+        font-size: 24px;
+    }
+    .slider_text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px){
+    .header_btn:before{
+        display: block;
+    }
+    
+}
+@media (max-width: 375px){
+    .header_email{
+        padding-right: 30px;
+    }
+}
+@media (min-width: 700px){
+    .menu ul{
+        display: block !important;
+    }
+}
+
