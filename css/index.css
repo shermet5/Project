@@ -462,6 +462,10 @@ ul,li{
     display: none;
     font-size: 28px;
   }
+  .clock{
+    color: #fff;
+    margin-top: 10px;
+}
   @media(max-width:550px){
         .header_contacts a {
         display: flex;
@@ -609,3 +613,4 @@ ul,li{
         left: 43%;
     }
 }
+

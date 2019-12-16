@@ -278,6 +278,10 @@ ul,li{
         width: 21px;
     }
   }
+   .clock{
+    color: #fff;
+    margin-top: 10px;
+}
   @media(min-width:660px){
       .menu ul{
           display: block;
