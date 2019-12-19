@@ -5,7 +5,63 @@
 #carouselOffers img {
     max-height: 450px;
 }
+.header_top{
 
+}
+.header_btn{
+    float: right;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    color:#1b1b1b;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 50px;
+    font-size: 16px;
+    position: relative;
+    margin-right: 17px;
+}
+.header_btn::before{
+    content: "\f0b1";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 22px;
+    color: #1b1b1b;
+}
+.header_contacts{
+    margin-left: 35px;
+}
+.header_contacts:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+.header_phone,
+.header_email{
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    position: relative;
+}
+.header_phone{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.header_phone::before{
+    content: "\f095";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+.header_email{
+    padding-left: 24px;
+}
+.header_email:before{
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
 .intro {
     max-width: 400px;
     margin-top: 150px;
@@ -420,3 +476,7 @@ ul{
         left: 43%;
     }
 }
+@media (max-width: 1000px){
+    .header_btn{
+        display: none;
+    }

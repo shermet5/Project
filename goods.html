@@ -2,181 +2,188 @@
 <html lang="uk">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create your wash</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/index.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Create your wash</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header class="container" id="home">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">CreateYourWash</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	<div class="header_top">
+		<div class="container">
+			<div class="header_contacts">
+				<a class="header_phone" href="tel:380963092145">+38 (096) 309 21 45</a>
+				<a class="header_email" href="#">CreateYourWash@gmail.com</a>
+			</div>
+		</div>
+	</div>
+	<header class="container" id="home">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">CreateYourWash</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link smooth" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth" href="#contacts">Contacts</a>
-                    </li>
-                </ul>
-                <div>
-                    <a class="nav-link" href="#cartModal" data-toggle="modal">
-                      <i class="fas fa-shopping-cart"></i>
-                        Cart<span id="cart-badge" class="badge badge-light"></span>
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main class="container">
-        <div class="jumbotron">
-            
-            <div id="carouselOffers" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="intro mx-auto">
-                    <h1 class="display-4">Welcome to CreateYourWash</h1>
-                    <hr class="my-4">
-                    <p>Buy with discount today</p>
-                    <p class="lead">
-                      <a class="btn btn-primary btn-lg smooth" href="#products" role="button">Start shopping</a>
-                    </p>
-                  </div>    
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselOffers" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselOffers" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-        </div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link smooth" href="index.html">Головна<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth" href="#products">Товари</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth" href="#contacts">Контакти</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth" href="#contacts">Про нас</a>
+					</li>
+				</ul>
+				<div>
+					<a class="nav-link" href="#cartModal" data-toggle="modal">
+						<i class="fas fa-shopping-cart"></i>
+						Cart<span id="cart-badge" class="badge badge-light"></span>
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="container">
+		<div class="jumbotron">
 
-        </div>
-        <section>
-            <h2 id="products">Products</h2>
-            <div class="row products-container">
-               <!--Products are dynamically generated here-->
-            </div>
-        </section>
-    </main>
-    
-     <footer class="footer">
-            <div class="footer_content">
-              <div class="container">
-                <div class="footer_inner">
-                  <div class="footer_info">
-                    <ul class="footer_list" id="contacts">
-                      <li><a class="footer_phone" href="tel:380963092145">+38 (096) 309 21 45</a></li>
-                      <li><a href="#">CreateCarWash@gmail.com</a></li>
-                      <li><a class="footer_adress" href="#">Львів, вул.Бандери 43</a></li>
-                      <div class="clock"></div>
-                    </ul>
-                  </div>
-                  <div class="footer_map">
-                    <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6961945491184!2d24.006049099370745!3d49.83508423935013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add78b997cbc9%3A0x1a1e087844ecb9ce!2z0LLRg9C70LjRhtGPINCh0YLQtdC_0LDQvdCwINCR0LDQvdC00LXRgNC4LCAzNCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1575120570773!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                  </div>
+			<div id="carouselOffers" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
                 </div>
-              </div>
-            </div>
-            <div class="footer_copy">
-              <div class="container">
-                <div class="copy_text">
-                  © 2017 Template by Nazarii Lozynskyi. Все права защищены.
+						<div class="carousel-item">
+							<img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
                 </div>
-              </div>
-            </div>
-          </footer>
-    
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/slider-bg.png" alt="Car wash">
+                </div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselOffers" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselOffers" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
 
-    <!-- Modal Product Info -->
-    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				</div>
+				<section>
+					<h2 id="products">Products</h2>
+					<div class="row products-container">
+					</div>
+				</section>
+	</main>
+	<footer class="footer">
+		<div class="footer_content">
+			<div class="container">
+				<div class="footer_inner">
+					<div class="footer_info">
+						<ul class="footer_list" id="contacts">
+							<li><a class="footer_phone" href="tel:380963092145">+38 (096) 309 21 45</a></li>
+							<li><a href="#">CreateCarWash@gmail.com</a></li>
+							<li><a class="footer_adress" href="#">Львів, вул.Бандери 43</a></li>
+							<div class="clock"></div>
+						</ul>
+					</div>
+					<div class="footer_map">
+						<iframe height="250px"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6961945491184!2d24.006049099370745!3d49.83508423935013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add78b997cbc9%3A0x1a1e087844ecb9ce!2z0LLRg9C70LjRhtGPINCh0YLQtdC_0LDQvdCwINCR0LDQvdC00LXRgNC4LCAzNCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1575120570773!5m2!1suk!2sua"
+							width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_copy">
+			<div class="container">
+				<div class="copy_text">
+					© 2017 Template by Nazarii Lozynskyi. Все права защищены.
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body">
-              <img class="card-img-top" src="" alt="">
-              <h4 class="card-title"></h4>
-              <p class="card-text"></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button class="btn btn-primary buy" data-id="id">Buy</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Modal Cart -->
-    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="cartLabel">Cart</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				</div>
+				<div class="modal-body">
+					<img class="card-img-top" src="" alt="">
+					<h4 class="card-title"></h4>
+					<p class="card-text"></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary buy" data-id="id">Buy</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="cartLabel">Cart</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body">
-            <div class="cart-product-list-container"></div>
-            <hr>
-            <div class="container">
-              <form>
-                <div class="form-group row">
-                  <label for="client-name" class="col-4 col-form-label">Your name:</label>
-                  <input class="form-control col-8" type="text" id="client-name" required>
+				</div>
+				<div class="modal-body">
+					<div class="cart-product-list-container"></div>
+					<hr>
+					<div class="container">
+						<form>
+							<div class="form-group row">
+								<label for="client-name" class="col-4 col-form-label">Your name:</label>
+								<input class="form-control col-8" type="text" id="client-name" required>
                 </div>
-                <div class="form-group row">
-                  <label for="client-email" class="col-4 col-form-label">Your email:</label>
-                  <input class="form-control col-8" type="email" id="client-email" required>
+								<div class="form-group row">
+									<label for="client-email" class="col-4 col-form-label">Your email:</label>
+									<input class="form-control col-8" type="email" id="client-email" required>
                 </div>
-              </form>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button class="btn btn-primary order">Order</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary order">Order</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+		integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+		integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+	</script>
+	<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"
+		integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous">
+	</script>
 
 
-    <script async src="js/smooth-scroll.js"></script>
-    <script async src="js/alert-window.js"></script>
-    <script defer src="js/cart.js"></script>
-    <script defer src="js/product-list.js"></script>    
-    <script defer src="js/index.js"></script>
+	<script async src="js/smooth-scroll.js"></script>
+	<script async src="js/alert-window.js"></script>
+	<script defer src="js/cart.js"></script>
+	<script defer src="js/product-list.js"></script>
+	<script defer src="js/index.js"></script>
 </body>
 
 </html>
